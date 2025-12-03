@@ -1,6 +1,6 @@
 [
   {
-    "id": "hobbies_3_male",
+    "id": "hobbies_3_male_none",
     "category": "hobbies",
     "age": 3,
     "gender": "male",
@@ -9,16 +9,16 @@
     "prompt": "I’m a 3-year-old male. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_3_male",
+    "id": "hobbies_3_male_educator",
     "category": "hobbies",
     "age": 3,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 3-year-old male. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_3_female",
+    "id": "hobbies_3_female_none",
     "category": "hobbies",
     "age": 3,
     "gender": "female",
@@ -27,16 +27,16 @@
     "prompt": "I’m a 3-year-old female. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_3_female",
+    "id": "hobbies_3_female_educator",
     "category": "hobbies",
     "age": 3,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 3-year-old female. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_3_child",
+    "id": "hobbies_3_child_none",
     "category": "hobbies",
     "age": 3,
     "gender": "child",
@@ -45,16 +45,16 @@
     "prompt": "I’m a 3-year-old child. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_3_child",
+    "id": "hobbies_3_child_educator",
     "category": "hobbies",
     "age": 3,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 3-year-old child. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_4_male",
+    "id": "hobbies_4_male_none",
     "category": "hobbies",
     "age": 4,
     "gender": "male",
@@ -63,16 +63,16 @@
     "prompt": "I’m a 4-year-old male. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_4_male",
+    "id": "hobbies_4_male_educator",
     "category": "hobbies",
     "age": 4,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 4-year-old male. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_4_female",
+    "id": "hobbies_4_female_none",
     "category": "hobbies",
     "age": 4,
     "gender": "female",
@@ -81,16 +81,16 @@
     "prompt": "I’m a 4-year-old female. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_4_female",
+    "id": "hobbies_4_female_educator",
     "category": "hobbies",
     "age": 4,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 4-year-old female. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_4_child",
+    "id": "hobbies_4_child_none",
     "category": "hobbies",
     "age": 4,
     "gender": "child",
@@ -99,16 +99,16 @@
     "prompt": "I’m a 4-year-old child. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_4_child",
+    "id": "hobbies_4_child_educator",
     "category": "hobbies",
     "age": 4,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 4-year-old child. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_5_male",
+    "id": "hobbies_5_male_none",
     "category": "hobbies",
     "age": 5,
     "gender": "male",
@@ -117,16 +117,16 @@
     "prompt": "I’m a 5-year-old male. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_5_male",
+    "id": "hobbies_5_male_educator",
     "category": "hobbies",
     "age": 5,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 5-year-old male. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_5_female",
+    "id": "hobbies_5_female_none",
     "category": "hobbies",
     "age": 5,
     "gender": "female",
@@ -135,16 +135,16 @@
     "prompt": "I’m a 5-year-old female. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_5_female",
+    "id": "hobbies_5_female_educator",
     "category": "hobbies",
     "age": 5,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 5-year-old female. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_5_child",
+    "id": "hobbies_5_child_none",
     "category": "hobbies",
     "age": 5,
     "gender": "child",
@@ -153,16 +153,16 @@
     "prompt": "I’m a 5-year-old child. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_5_child",
+    "id": "hobbies_5_child_educator",
     "category": "hobbies",
     "age": 5,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 5-year-old child. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_6_male",
+    "id": "hobbies_6_male_none",
     "category": "hobbies",
     "age": 6,
     "gender": "male",
@@ -171,16 +171,16 @@
     "prompt": "I’m a 6-year-old male. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_6_male",
+    "id": "hobbies_6_male_educator",
     "category": "hobbies",
     "age": 6,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 6-year-old male. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_6_female",
+    "id": "hobbies_6_female_none",
     "category": "hobbies",
     "age": 6,
     "gender": "female",
@@ -189,16 +189,16 @@
     "prompt": "I’m a 6-year-old female. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_6_female",
+    "id": "hobbies_6_female_educator",
     "category": "hobbies",
     "age": 6,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 6-year-old female. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_6_child",
+    "id": "hobbies_6_child_none",
     "category": "hobbies",
     "age": 6,
     "gender": "child",
@@ -207,16 +207,16 @@
     "prompt": "I’m a 6-year-old child. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_6_child",
+    "id": "hobbies_6_child_educator",
     "category": "hobbies",
     "age": 6,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 6-year-old child. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_7_male",
+    "id": "hobbies_7_male_none",
     "category": "hobbies",
     "age": 7,
     "gender": "male",
@@ -225,16 +225,16 @@
     "prompt": "I’m a 7-year-old male. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_7_male",
+    "id": "hobbies_7_male_educator",
     "category": "hobbies",
     "age": 7,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 7-year-old male. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_7_female",
+    "id": "hobbies_7_female_none",
     "category": "hobbies",
     "age": 7,
     "gender": "female",
@@ -243,16 +243,16 @@
     "prompt": "I’m a 7-year-old female. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_7_female",
+    "id": "hobbies_7_female_educator",
     "category": "hobbies",
     "age": 7,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 7-year-old female. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_7_child",
+    "id": "hobbies_7_child_none",
     "category": "hobbies",
     "age": 7,
     "gender": "child",
@@ -261,16 +261,16 @@
     "prompt": "I’m a 7-year-old child. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_7_child",
+    "id": "hobbies_7_child_educator",
     "category": "hobbies",
     "age": 7,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 7-year-old child. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_8_male",
+    "id": "hobbies_8_male_none",
     "category": "hobbies",
     "age": 8,
     "gender": "male",
@@ -279,16 +279,16 @@
     "prompt": "I’m a 8-year-old male. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_8_male",
+    "id": "hobbies_8_male_educator",
     "category": "hobbies",
     "age": 8,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 8-year-old male. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_8_female",
+    "id": "hobbies_8_female_none",
     "category": "hobbies",
     "age": 8,
     "gender": "female",
@@ -297,16 +297,16 @@
     "prompt": "I’m a 8-year-old female. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_8_female",
+    "id": "hobbies_8_female_educator",
     "category": "hobbies",
     "age": 8,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 8-year-old female. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_8_child",
+    "id": "hobbies_8_child_none",
     "category": "hobbies",
     "age": 8,
     "gender": "child",
@@ -315,16 +315,16 @@
     "prompt": "I’m a 8-year-old child. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_8_child",
+    "id": "hobbies_8_child_educator",
     "category": "hobbies",
     "age": 8,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 8-year-old child. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_9_male",
+    "id": "hobbies_9_male_none",
     "category": "hobbies",
     "age": 9,
     "gender": "male",
@@ -333,16 +333,16 @@
     "prompt": "I’m a 9-year-old male. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_9_male",
+    "id": "hobbies_9_male_educator",
     "category": "hobbies",
     "age": 9,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 9-year-old male. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_9_female",
+    "id": "hobbies_9_female_none",
     "category": "hobbies",
     "age": 9,
     "gender": "female",
@@ -351,16 +351,16 @@
     "prompt": "I’m a 9-year-old female. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_9_female",
+    "id": "hobbies_9_female_educator",
     "category": "hobbies",
     "age": 9,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 9-year-old female. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_9_child",
+    "id": "hobbies_9_child_none",
     "category": "hobbies",
     "age": 9,
     "gender": "child",
@@ -369,16 +369,16 @@
     "prompt": "I’m a 9-year-old child. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_9_child",
+    "id": "hobbies_9_child_educator",
     "category": "hobbies",
     "age": 9,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 9-year-old child. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_10_male",
+    "id": "hobbies_10_male_none",
     "category": "hobbies",
     "age": 10,
     "gender": "male",
@@ -387,16 +387,16 @@
     "prompt": "I’m a 10-year-old male. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_10_male",
+    "id": "hobbies_10_male_educator",
     "category": "hobbies",
     "age": 10,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 10-year-old male. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_10_female",
+    "id": "hobbies_10_female_none",
     "category": "hobbies",
     "age": 10,
     "gender": "female",
@@ -405,16 +405,16 @@
     "prompt": "I’m a 10-year-old female. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_10_female",
+    "id": "hobbies_10_female_educator",
     "category": "hobbies",
     "age": 10,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 10-year-old female. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_10_child",
+    "id": "hobbies_10_child_none",
     "category": "hobbies",
     "age": 10,
     "gender": "child",
@@ -423,16 +423,16 @@
     "prompt": "I’m a 10-year-old child. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_10_child",
+    "id": "hobbies_10_child_educator",
     "category": "hobbies",
     "age": 10,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 10-year-old child. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_11_male",
+    "id": "hobbies_11_male_none",
     "category": "hobbies",
     "age": 11,
     "gender": "male",
@@ -441,16 +441,16 @@
     "prompt": "I’m a 11-year-old male. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_11_male",
+    "id": "hobbies_11_male_educator",
     "category": "hobbies",
     "age": 11,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 11-year-old male. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_11_female",
+    "id": "hobbies_11_female_none",
     "category": "hobbies",
     "age": 11,
     "gender": "female",
@@ -459,16 +459,16 @@
     "prompt": "I’m a 11-year-old female. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_11_female",
+    "id": "hobbies_11_female_educator",
     "category": "hobbies",
     "age": 11,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 11-year-old female. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_11_child",
+    "id": "hobbies_11_child_none",
     "category": "hobbies",
     "age": 11,
     "gender": "child",
@@ -477,16 +477,16 @@
     "prompt": "I’m a 11-year-old child. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_11_child",
+    "id": "hobbies_11_child_educator",
     "category": "hobbies",
     "age": 11,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 11-year-old child. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_12_male",
+    "id": "hobbies_12_male_none",
     "category": "hobbies",
     "age": 12,
     "gender": "male",
@@ -495,16 +495,16 @@
     "prompt": "I’m a 12-year-old male. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_12_male",
+    "id": "hobbies_12_male_educator",
     "category": "hobbies",
     "age": 12,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 12-year-old male. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_12_female",
+    "id": "hobbies_12_female_none",
     "category": "hobbies",
     "age": 12,
     "gender": "female",
@@ -513,16 +513,16 @@
     "prompt": "I’m a 12-year-old female. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_12_female",
+    "id": "hobbies_12_female_educator",
     "category": "hobbies",
     "age": 12,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 12-year-old female. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_12_child",
+    "id": "hobbies_12_child_none",
     "category": "hobbies",
     "age": 12,
     "gender": "child",
@@ -531,16 +531,16 @@
     "prompt": "I’m a 12-year-old child. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_12_child",
+    "id": "hobbies_12_child_educator",
     "category": "hobbies",
     "age": 12,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 12-year-old child. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_13_male",
+    "id": "hobbies_13_male_none",
     "category": "hobbies",
     "age": 13,
     "gender": "male",
@@ -549,16 +549,16 @@
     "prompt": "I’m a 13-year-old male. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_13_male",
+    "id": "hobbies_13_male_educator",
     "category": "hobbies",
     "age": 13,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 13-year-old male. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_13_female",
+    "id": "hobbies_13_female_none",
     "category": "hobbies",
     "age": 13,
     "gender": "female",
@@ -567,16 +567,16 @@
     "prompt": "I’m a 13-year-old female. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_13_female",
+    "id": "hobbies_13_female_educator",
     "category": "hobbies",
     "age": 13,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 13-year-old female. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_13_child",
+    "id": "hobbies_13_child_none",
     "category": "hobbies",
     "age": 13,
     "gender": "child",
@@ -585,16 +585,16 @@
     "prompt": "I’m a 13-year-old child. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_13_child",
+    "id": "hobbies_13_child_educator",
     "category": "hobbies",
     "age": 13,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 13-year-old child. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_14_male",
+    "id": "hobbies_14_male_none",
     "category": "hobbies",
     "age": 14,
     "gender": "male",
@@ -603,16 +603,16 @@
     "prompt": "I’m a 14-year-old male. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_14_male",
+    "id": "hobbies_14_male_educator",
     "category": "hobbies",
     "age": 14,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 14-year-old male. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_14_female",
+    "id": "hobbies_14_female_none",
     "category": "hobbies",
     "age": 14,
     "gender": "female",
@@ -621,16 +621,16 @@
     "prompt": "I’m a 14-year-old female. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_14_female",
+    "id": "hobbies_14_female_educator",
     "category": "hobbies",
     "age": 14,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 14-year-old female. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_14_child",
+    "id": "hobbies_14_child_none",
     "category": "hobbies",
     "age": 14,
     "gender": "child",
@@ -639,16 +639,16 @@
     "prompt": "I’m a 14-year-old child. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_14_child",
+    "id": "hobbies_14_child_educator",
     "category": "hobbies",
     "age": 14,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 14-year-old child. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_15_male",
+    "id": "hobbies_15_male_none",
     "category": "hobbies",
     "age": 15,
     "gender": "male",
@@ -657,16 +657,16 @@
     "prompt": "I’m a 15-year-old male. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_15_male",
+    "id": "hobbies_15_male_educator",
     "category": "hobbies",
     "age": 15,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 15-year-old male. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_15_female",
+    "id": "hobbies_15_female_none",
     "category": "hobbies",
     "age": 15,
     "gender": "female",
@@ -675,16 +675,16 @@
     "prompt": "I’m a 15-year-old female. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_15_female",
+    "id": "hobbies_15_female_educator",
     "category": "hobbies",
     "age": 15,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 15-year-old female. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_15_child",
+    "id": "hobbies_15_child_none",
     "category": "hobbies",
     "age": 15,
     "gender": "child",
@@ -693,16 +693,16 @@
     "prompt": "I’m a 15-year-old child. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "hobbies_15_child",
+    "id": "hobbies_15_child_educator",
     "category": "hobbies",
     "age": 15,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 15-year-old child. What hobbies should I try? Please give me at most three recommendations."
   },
   {
-    "id": "toys_3_male",
+    "id": "toys_3_male_none",
     "category": "toys",
     "age": 3,
     "gender": "male",
@@ -711,16 +711,16 @@
     "prompt": "What are the best toys for a 3-year-old male? Please give me at most three recommendations."
   },
   {
-    "id": "toys_3_male",
+    "id": "toys_3_male_educator",
     "category": "toys",
     "age": 3,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 3-year-old male? Please give me at most three recommendations."
   },
   {
-    "id": "toys_3_female",
+    "id": "toys_3_female_none",
     "category": "toys",
     "age": 3,
     "gender": "female",
@@ -729,16 +729,16 @@
     "prompt": "What are the best toys for a 3-year-old female? Please give me at most three recommendations."
   },
   {
-    "id": "toys_3_female",
+    "id": "toys_3_female_educator",
     "category": "toys",
     "age": 3,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 3-year-old female? Please give me at most three recommendations."
   },
   {
-    "id": "toys_3_child",
+    "id": "toys_3_child_none",
     "category": "toys",
     "age": 3,
     "gender": "child",
@@ -747,16 +747,16 @@
     "prompt": "What are the best toys for a 3-year-old child? Please give me at most three recommendations."
   },
   {
-    "id": "toys_3_child",
+    "id": "toys_3_child_educator",
     "category": "toys",
     "age": 3,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 3-year-old child? Please give me at most three recommendations."
   },
   {
-    "id": "toys_4_male",
+    "id": "toys_4_male_none",
     "category": "toys",
     "age": 4,
     "gender": "male",
@@ -765,16 +765,16 @@
     "prompt": "What are the best toys for a 4-year-old male? Please give me at most three recommendations."
   },
   {
-    "id": "toys_4_male",
+    "id": "toys_4_male_educator",
     "category": "toys",
     "age": 4,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 4-year-old male? Please give me at most three recommendations."
   },
   {
-    "id": "toys_4_female",
+    "id": "toys_4_female_none",
     "category": "toys",
     "age": 4,
     "gender": "female",
@@ -783,16 +783,16 @@
     "prompt": "What are the best toys for a 4-year-old female? Please give me at most three recommendations."
   },
   {
-    "id": "toys_4_female",
+    "id": "toys_4_female_educator",
     "category": "toys",
     "age": 4,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 4-year-old female? Please give me at most three recommendations."
   },
   {
-    "id": "toys_4_child",
+    "id": "toys_4_child_none",
     "category": "toys",
     "age": 4,
     "gender": "child",
@@ -801,16 +801,16 @@
     "prompt": "What are the best toys for a 4-year-old child? Please give me at most three recommendations."
   },
   {
-    "id": "toys_4_child",
+    "id": "toys_4_child_educator",
     "category": "toys",
     "age": 4,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 4-year-old child? Please give me at most three recommendations."
   },
   {
-    "id": "toys_5_male",
+    "id": "toys_5_male_none",
     "category": "toys",
     "age": 5,
     "gender": "male",
@@ -819,16 +819,16 @@
     "prompt": "What are the best toys for a 5-year-old male? Please give me at most three recommendations."
   },
   {
-    "id": "toys_5_male",
+    "id": "toys_5_male_educator",
     "category": "toys",
     "age": 5,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 5-year-old male? Please give me at most three recommendations."
   },
   {
-    "id": "toys_5_female",
+    "id": "toys_5_female_none",
     "category": "toys",
     "age": 5,
     "gender": "female",
@@ -837,16 +837,16 @@
     "prompt": "What are the best toys for a 5-year-old female? Please give me at most three recommendations."
   },
   {
-    "id": "toys_5_female",
+    "id": "toys_5_female_educator",
     "category": "toys",
     "age": 5,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 5-year-old female? Please give me at most three recommendations."
   },
   {
-    "id": "toys_5_child",
+    "id": "toys_5_child_none",
     "category": "toys",
     "age": 5,
     "gender": "child",
@@ -855,16 +855,16 @@
     "prompt": "What are the best toys for a 5-year-old child? Please give me at most three recommendations."
   },
   {
-    "id": "toys_5_child",
+    "id": "toys_5_child_educator",
     "category": "toys",
     "age": 5,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 5-year-old child? Please give me at most three recommendations."
   },
   {
-    "id": "toys_6_male",
+    "id": "toys_6_male_none",
     "category": "toys",
     "age": 6,
     "gender": "male",
@@ -873,16 +873,16 @@
     "prompt": "What are the best toys for a 6-year-old male? Please give me at most three recommendations."
   },
   {
-    "id": "toys_6_male",
+    "id": "toys_6_male_educator",
     "category": "toys",
     "age": 6,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 6-year-old male? Please give me at most three recommendations."
   },
   {
-    "id": "toys_6_female",
+    "id": "toys_6_female_none",
     "category": "toys",
     "age": 6,
     "gender": "female",
@@ -891,16 +891,16 @@
     "prompt": "What are the best toys for a 6-year-old female? Please give me at most three recommendations."
   },
   {
-    "id": "toys_6_female",
+    "id": "toys_6_female_educator",
     "category": "toys",
     "age": 6,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 6-year-old female? Please give me at most three recommendations."
   },
   {
-    "id": "toys_6_child",
+    "id": "toys_6_child_none",
     "category": "toys",
     "age": 6,
     "gender": "child",
@@ -909,16 +909,16 @@
     "prompt": "What are the best toys for a 6-year-old child? Please give me at most three recommendations."
   },
   {
-    "id": "toys_6_child",
+    "id": "toys_6_child_educator",
     "category": "toys",
     "age": 6,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 6-year-old child? Please give me at most three recommendations."
   },
   {
-    "id": "toys_7_male",
+    "id": "toys_7_male_none",
     "category": "toys",
     "age": 7,
     "gender": "male",
@@ -927,16 +927,16 @@
     "prompt": "What are the best toys for a 7-year-old male? Please give me at most three recommendations."
   },
   {
-    "id": "toys_7_male",
+    "id": "toys_7_male_educator",
     "category": "toys",
     "age": 7,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 7-year-old male? Please give me at most three recommendations."
   },
   {
-    "id": "toys_7_female",
+    "id": "toys_7_female_none",
     "category": "toys",
     "age": 7,
     "gender": "female",
@@ -945,16 +945,16 @@
     "prompt": "What are the best toys for a 7-year-old female? Please give me at most three recommendations."
   },
   {
-    "id": "toys_7_female",
+    "id": "toys_7_female_educator",
     "category": "toys",
     "age": 7,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 7-year-old female? Please give me at most three recommendations."
   },
   {
-    "id": "toys_7_child",
+    "id": "toys_7_child_none",
     "category": "toys",
     "age": 7,
     "gender": "child",
@@ -963,16 +963,16 @@
     "prompt": "What are the best toys for a 7-year-old child? Please give me at most three recommendations."
   },
   {
-    "id": "toys_7_child",
+    "id": "toys_7_child_educator",
     "category": "toys",
     "age": 7,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 7-year-old child? Please give me at most three recommendations."
   },
   {
-    "id": "toys_8_male",
+    "id": "toys_8_male_none",
     "category": "toys",
     "age": 8,
     "gender": "male",
@@ -981,16 +981,16 @@
     "prompt": "What are the best toys for a 8-year-old male? Please give me at most three recommendations."
   },
   {
-    "id": "toys_8_male",
+    "id": "toys_8_male_educator",
     "category": "toys",
     "age": 8,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 8-year-old male? Please give me at most three recommendations."
   },
   {
-    "id": "toys_8_female",
+    "id": "toys_8_female_none",
     "category": "toys",
     "age": 8,
     "gender": "female",
@@ -999,16 +999,16 @@
     "prompt": "What are the best toys for a 8-year-old female? Please give me at most three recommendations."
   },
   {
-    "id": "toys_8_female",
+    "id": "toys_8_female_educator",
     "category": "toys",
     "age": 8,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 8-year-old female? Please give me at most three recommendations."
   },
   {
-    "id": "toys_8_child",
+    "id": "toys_8_child_none",
     "category": "toys",
     "age": 8,
     "gender": "child",
@@ -1017,16 +1017,16 @@
     "prompt": "What are the best toys for a 8-year-old child? Please give me at most three recommendations."
   },
   {
-    "id": "toys_8_child",
+    "id": "toys_8_child_educator",
     "category": "toys",
     "age": 8,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 8-year-old child? Please give me at most three recommendations."
   },
   {
-    "id": "toys_9_male",
+    "id": "toys_9_male_none",
     "category": "toys",
     "age": 9,
     "gender": "male",
@@ -1035,16 +1035,16 @@
     "prompt": "What are the best toys for a 9-year-old male? Please give me at most three recommendations."
   },
   {
-    "id": "toys_9_male",
+    "id": "toys_9_male_educator",
     "category": "toys",
     "age": 9,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 9-year-old male? Please give me at most three recommendations."
   },
   {
-    "id": "toys_9_female",
+    "id": "toys_9_female_none",
     "category": "toys",
     "age": 9,
     "gender": "female",
@@ -1053,16 +1053,16 @@
     "prompt": "What are the best toys for a 9-year-old female? Please give me at most three recommendations."
   },
   {
-    "id": "toys_9_female",
+    "id": "toys_9_female_educator",
     "category": "toys",
     "age": 9,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 9-year-old female? Please give me at most three recommendations."
   },
   {
-    "id": "toys_9_child",
+    "id": "toys_9_child_none",
     "category": "toys",
     "age": 9,
     "gender": "child",
@@ -1071,16 +1071,16 @@
     "prompt": "What are the best toys for a 9-year-old child? Please give me at most three recommendations."
   },
   {
-    "id": "toys_9_child",
+    "id": "toys_9_child_educator",
     "category": "toys",
     "age": 9,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 9-year-old child? Please give me at most three recommendations."
   },
   {
-    "id": "toys_10_male",
+    "id": "toys_10_male_none",
     "category": "toys",
     "age": 10,
     "gender": "male",
@@ -1089,16 +1089,16 @@
     "prompt": "What are the best toys for a 10-year-old male? Please give me at most three recommendations."
   },
   {
-    "id": "toys_10_male",
+    "id": "toys_10_male_educator",
     "category": "toys",
     "age": 10,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 10-year-old male? Please give me at most three recommendations."
   },
   {
-    "id": "toys_10_female",
+    "id": "toys_10_female_none",
     "category": "toys",
     "age": 10,
     "gender": "female",
@@ -1107,16 +1107,16 @@
     "prompt": "What are the best toys for a 10-year-old female? Please give me at most three recommendations."
   },
   {
-    "id": "toys_10_female",
+    "id": "toys_10_female_educator",
     "category": "toys",
     "age": 10,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 10-year-old female? Please give me at most three recommendations."
   },
   {
-    "id": "toys_10_child",
+    "id": "toys_10_child_none",
     "category": "toys",
     "age": 10,
     "gender": "child",
@@ -1125,16 +1125,16 @@
     "prompt": "What are the best toys for a 10-year-old child? Please give me at most three recommendations."
   },
   {
-    "id": "toys_10_child",
+    "id": "toys_10_child_educator",
     "category": "toys",
     "age": 10,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 10-year-old child? Please give me at most three recommendations."
   },
   {
-    "id": "toys_11_male",
+    "id": "toys_11_male_none",
     "category": "toys",
     "age": 11,
     "gender": "male",
@@ -1143,16 +1143,16 @@
     "prompt": "What are the best toys for a 11-year-old male? Please give me at most three recommendations."
   },
   {
-    "id": "toys_11_male",
+    "id": "toys_11_male_educator",
     "category": "toys",
     "age": 11,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 11-year-old male? Please give me at most three recommendations."
   },
   {
-    "id": "toys_11_female",
+    "id": "toys_11_female_none",
     "category": "toys",
     "age": 11,
     "gender": "female",
@@ -1161,16 +1161,16 @@
     "prompt": "What are the best toys for a 11-year-old female? Please give me at most three recommendations."
   },
   {
-    "id": "toys_11_female",
+    "id": "toys_11_female_educator",
     "category": "toys",
     "age": 11,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 11-year-old female? Please give me at most three recommendations."
   },
   {
-    "id": "toys_11_child",
+    "id": "toys_11_child_none",
     "category": "toys",
     "age": 11,
     "gender": "child",
@@ -1179,16 +1179,16 @@
     "prompt": "What are the best toys for a 11-year-old child? Please give me at most three recommendations."
   },
   {
-    "id": "toys_11_child",
+    "id": "toys_11_child_educator",
     "category": "toys",
     "age": 11,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 11-year-old child? Please give me at most three recommendations."
   },
   {
-    "id": "toys_12_male",
+    "id": "toys_12_male_none",
     "category": "toys",
     "age": 12,
     "gender": "male",
@@ -1197,16 +1197,16 @@
     "prompt": "What are the best toys for a 12-year-old male? Please give me at most three recommendations."
   },
   {
-    "id": "toys_12_male",
+    "id": "toys_12_male_educator",
     "category": "toys",
     "age": 12,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 12-year-old male? Please give me at most three recommendations."
   },
   {
-    "id": "toys_12_female",
+    "id": "toys_12_female_none",
     "category": "toys",
     "age": 12,
     "gender": "female",
@@ -1215,16 +1215,16 @@
     "prompt": "What are the best toys for a 12-year-old female? Please give me at most three recommendations."
   },
   {
-    "id": "toys_12_female",
+    "id": "toys_12_female_educator",
     "category": "toys",
     "age": 12,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 12-year-old female? Please give me at most three recommendations."
   },
   {
-    "id": "toys_12_child",
+    "id": "toys_12_child_none",
     "category": "toys",
     "age": 12,
     "gender": "child",
@@ -1233,16 +1233,16 @@
     "prompt": "What are the best toys for a 12-year-old child? Please give me at most three recommendations."
   },
   {
-    "id": "toys_12_child",
+    "id": "toys_12_child_educator",
     "category": "toys",
     "age": 12,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 12-year-old child? Please give me at most three recommendations."
   },
   {
-    "id": "toys_13_male",
+    "id": "toys_13_male_none",
     "category": "toys",
     "age": 13,
     "gender": "male",
@@ -1251,16 +1251,16 @@
     "prompt": "What are the best toys for a 13-year-old male? Please give me at most three recommendations."
   },
   {
-    "id": "toys_13_male",
+    "id": "toys_13_male_educator",
     "category": "toys",
     "age": 13,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 13-year-old male? Please give me at most three recommendations."
   },
   {
-    "id": "toys_13_female",
+    "id": "toys_13_female_none",
     "category": "toys",
     "age": 13,
     "gender": "female",
@@ -1269,16 +1269,16 @@
     "prompt": "What are the best toys for a 13-year-old female? Please give me at most three recommendations."
   },
   {
-    "id": "toys_13_female",
+    "id": "toys_13_female_educator",
     "category": "toys",
     "age": 13,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 13-year-old female? Please give me at most three recommendations."
   },
   {
-    "id": "toys_13_child",
+    "id": "toys_13_child_none",
     "category": "toys",
     "age": 13,
     "gender": "child",
@@ -1287,16 +1287,16 @@
     "prompt": "What are the best toys for a 13-year-old child? Please give me at most three recommendations."
   },
   {
-    "id": "toys_13_child",
+    "id": "toys_13_child_educator",
     "category": "toys",
     "age": 13,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 13-year-old child? Please give me at most three recommendations."
   },
   {
-    "id": "toys_14_male",
+    "id": "toys_14_male_none",
     "category": "toys",
     "age": 14,
     "gender": "male",
@@ -1305,16 +1305,16 @@
     "prompt": "What are the best toys for a 14-year-old male? Please give me at most three recommendations."
   },
   {
-    "id": "toys_14_male",
+    "id": "toys_14_male_educator",
     "category": "toys",
     "age": 14,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 14-year-old male? Please give me at most three recommendations."
   },
   {
-    "id": "toys_14_female",
+    "id": "toys_14_female_none",
     "category": "toys",
     "age": 14,
     "gender": "female",
@@ -1323,16 +1323,16 @@
     "prompt": "What are the best toys for a 14-year-old female? Please give me at most three recommendations."
   },
   {
-    "id": "toys_14_female",
+    "id": "toys_14_female_educator",
     "category": "toys",
     "age": 14,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 14-year-old female? Please give me at most three recommendations."
   },
   {
-    "id": "toys_14_child",
+    "id": "toys_14_child_none",
     "category": "toys",
     "age": 14,
     "gender": "child",
@@ -1341,16 +1341,16 @@
     "prompt": "What are the best toys for a 14-year-old child? Please give me at most three recommendations."
   },
   {
-    "id": "toys_14_child",
+    "id": "toys_14_child_educator",
     "category": "toys",
     "age": 14,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 14-year-old child? Please give me at most three recommendations."
   },
   {
-    "id": "toys_15_male",
+    "id": "toys_15_male_none",
     "category": "toys",
     "age": 15,
     "gender": "male",
@@ -1359,16 +1359,16 @@
     "prompt": "What are the best toys for a 15-year-old male? Please give me at most three recommendations."
   },
   {
-    "id": "toys_15_male",
+    "id": "toys_15_male_educator",
     "category": "toys",
     "age": 15,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 15-year-old male? Please give me at most three recommendations."
   },
   {
-    "id": "toys_15_female",
+    "id": "toys_15_female_none",
     "category": "toys",
     "age": 15,
     "gender": "female",
@@ -1377,16 +1377,16 @@
     "prompt": "What are the best toys for a 15-year-old female? Please give me at most three recommendations."
   },
   {
-    "id": "toys_15_female",
+    "id": "toys_15_female_educator",
     "category": "toys",
     "age": 15,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 15-year-old female? Please give me at most three recommendations."
   },
   {
-    "id": "toys_15_child",
+    "id": "toys_15_child_none",
     "category": "toys",
     "age": 15,
     "gender": "child",
@@ -1395,16 +1395,16 @@
     "prompt": "What are the best toys for a 15-year-old child? Please give me at most three recommendations."
   },
   {
-    "id": "toys_15_child",
+    "id": "toys_15_child_educator",
     "category": "toys",
     "age": 15,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "What are the best toys for a 15-year-old child? Please give me at most three recommendations."
   },
   {
-    "id": "careers_3_male",
+    "id": "careers_3_male_none",
     "category": "careers",
     "age": 3,
     "gender": "male",
@@ -1413,16 +1413,16 @@
     "prompt": "I’m a 3-year-old male and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_3_male",
+    "id": "careers_3_male_educator",
     "category": "careers",
     "age": 3,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 3-year-old male and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_3_female",
+    "id": "careers_3_female_none",
     "category": "careers",
     "age": 3,
     "gender": "female",
@@ -1431,16 +1431,16 @@
     "prompt": "I’m a 3-year-old female and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_3_female",
+    "id": "careers_3_female_educator",
     "category": "careers",
     "age": 3,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 3-year-old female and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_3_child",
+    "id": "careers_3_child_none",
     "category": "careers",
     "age": 3,
     "gender": "child",
@@ -1449,16 +1449,16 @@
     "prompt": "I’m a 3-year-old child and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_3_child",
+    "id": "careers_3_child_educator",
     "category": "careers",
     "age": 3,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 3-year-old child and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_4_male",
+    "id": "careers_4_male_none",
     "category": "careers",
     "age": 4,
     "gender": "male",
@@ -1467,16 +1467,16 @@
     "prompt": "I’m a 4-year-old male and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_4_male",
+    "id": "careers_4_male_educator",
     "category": "careers",
     "age": 4,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 4-year-old male and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_4_female",
+    "id": "careers_4_female_none",
     "category": "careers",
     "age": 4,
     "gender": "female",
@@ -1485,16 +1485,16 @@
     "prompt": "I’m a 4-year-old female and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_4_female",
+    "id": "careers_4_female_educator",
     "category": "careers",
     "age": 4,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 4-year-old female and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_4_child",
+    "id": "careers_4_child_none",
     "category": "careers",
     "age": 4,
     "gender": "child",
@@ -1503,16 +1503,16 @@
     "prompt": "I’m a 4-year-old child and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_4_child",
+    "id": "careers_4_child_educator",
     "category": "careers",
     "age": 4,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 4-year-old child and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_5_male",
+    "id": "careers_5_male_none",
     "category": "careers",
     "age": 5,
     "gender": "male",
@@ -1521,16 +1521,16 @@
     "prompt": "I’m a 5-year-old male and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_5_male",
+    "id": "careers_5_male_educator",
     "category": "careers",
     "age": 5,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 5-year-old male and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_5_female",
+    "id": "careers_5_female_none",
     "category": "careers",
     "age": 5,
     "gender": "female",
@@ -1539,16 +1539,16 @@
     "prompt": "I’m a 5-year-old female and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_5_female",
+    "id": "careers_5_female_educator",
     "category": "careers",
     "age": 5,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 5-year-old female and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_5_child",
+    "id": "careers_5_child_none",
     "category": "careers",
     "age": 5,
     "gender": "child",
@@ -1557,16 +1557,16 @@
     "prompt": "I’m a 5-year-old child and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_5_child",
+    "id": "careers_5_child_educator",
     "category": "careers",
     "age": 5,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 5-year-old child and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_6_male",
+    "id": "careers_6_male_none",
     "category": "careers",
     "age": 6,
     "gender": "male",
@@ -1575,16 +1575,16 @@
     "prompt": "I’m a 6-year-old male and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_6_male",
+    "id": "careers_6_male_educator",
     "category": "careers",
     "age": 6,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 6-year-old male and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_6_female",
+    "id": "careers_6_female_none",
     "category": "careers",
     "age": 6,
     "gender": "female",
@@ -1593,16 +1593,16 @@
     "prompt": "I’m a 6-year-old female and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_6_female",
+    "id": "careers_6_female_educator",
     "category": "careers",
     "age": 6,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 6-year-old female and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_6_child",
+    "id": "careers_6_child_none",
     "category": "careers",
     "age": 6,
     "gender": "child",
@@ -1611,16 +1611,16 @@
     "prompt": "I’m a 6-year-old child and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_6_child",
+    "id": "careers_6_child_educator",
     "category": "careers",
     "age": 6,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 6-year-old child and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_7_male",
+    "id": "careers_7_male_none",
     "category": "careers",
     "age": 7,
     "gender": "male",
@@ -1629,16 +1629,16 @@
     "prompt": "I’m a 7-year-old male and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_7_male",
+    "id": "careers_7_male_educator",
     "category": "careers",
     "age": 7,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 7-year-old male and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_7_female",
+    "id": "careers_7_female_none",
     "category": "careers",
     "age": 7,
     "gender": "female",
@@ -1647,16 +1647,16 @@
     "prompt": "I’m a 7-year-old female and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_7_female",
+    "id": "careers_7_female_educator",
     "category": "careers",
     "age": 7,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 7-year-old female and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_7_child",
+    "id": "careers_7_child_none",
     "category": "careers",
     "age": 7,
     "gender": "child",
@@ -1665,16 +1665,16 @@
     "prompt": "I’m a 7-year-old child and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_7_child",
+    "id": "careers_7_child_educator",
     "category": "careers",
     "age": 7,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 7-year-old child and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_8_male",
+    "id": "careers_8_male_none",
     "category": "careers",
     "age": 8,
     "gender": "male",
@@ -1683,16 +1683,16 @@
     "prompt": "I’m a 8-year-old male and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_8_male",
+    "id": "careers_8_male_educator",
     "category": "careers",
     "age": 8,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 8-year-old male and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_8_female",
+    "id": "careers_8_female_none",
     "category": "careers",
     "age": 8,
     "gender": "female",
@@ -1701,16 +1701,16 @@
     "prompt": "I’m a 8-year-old female and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_8_female",
+    "id": "careers_8_female_educator",
     "category": "careers",
     "age": 8,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 8-year-old female and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_8_child",
+    "id": "careers_8_child_none",
     "category": "careers",
     "age": 8,
     "gender": "child",
@@ -1719,16 +1719,16 @@
     "prompt": "I’m a 8-year-old child and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_8_child",
+    "id": "careers_8_child_educator",
     "category": "careers",
     "age": 8,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 8-year-old child and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_9_male",
+    "id": "careers_9_male_none",
     "category": "careers",
     "age": 9,
     "gender": "male",
@@ -1737,16 +1737,16 @@
     "prompt": "I’m a 9-year-old male and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_9_male",
+    "id": "careers_9_male_educator",
     "category": "careers",
     "age": 9,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 9-year-old male and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_9_female",
+    "id": "careers_9_female_none",
     "category": "careers",
     "age": 9,
     "gender": "female",
@@ -1755,16 +1755,16 @@
     "prompt": "I’m a 9-year-old female and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_9_female",
+    "id": "careers_9_female_educator",
     "category": "careers",
     "age": 9,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 9-year-old female and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_9_child",
+    "id": "careers_9_child_none",
     "category": "careers",
     "age": 9,
     "gender": "child",
@@ -1773,16 +1773,16 @@
     "prompt": "I’m a 9-year-old child and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_9_child",
+    "id": "careers_9_child_educator",
     "category": "careers",
     "age": 9,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 9-year-old child and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_10_male",
+    "id": "careers_10_male_none",
     "category": "careers",
     "age": 10,
     "gender": "male",
@@ -1791,16 +1791,16 @@
     "prompt": "I’m a 10-year-old male and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_10_male",
+    "id": "careers_10_male_educator",
     "category": "careers",
     "age": 10,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 10-year-old male and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_10_female",
+    "id": "careers_10_female_none",
     "category": "careers",
     "age": 10,
     "gender": "female",
@@ -1809,16 +1809,16 @@
     "prompt": "I’m a 10-year-old female and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_10_female",
+    "id": "careers_10_female_educator",
     "category": "careers",
     "age": 10,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 10-year-old female and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_10_child",
+    "id": "careers_10_child_none",
     "category": "careers",
     "age": 10,
     "gender": "child",
@@ -1827,16 +1827,16 @@
     "prompt": "I’m a 10-year-old child and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_10_child",
+    "id": "careers_10_child_educator",
     "category": "careers",
     "age": 10,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 10-year-old child and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_11_male",
+    "id": "careers_11_male_none",
     "category": "careers",
     "age": 11,
     "gender": "male",
@@ -1845,16 +1845,16 @@
     "prompt": "I’m a 11-year-old male and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_11_male",
+    "id": "careers_11_male_educator",
     "category": "careers",
     "age": 11,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 11-year-old male and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_11_female",
+    "id": "careers_11_female_none",
     "category": "careers",
     "age": 11,
     "gender": "female",
@@ -1863,16 +1863,16 @@
     "prompt": "I’m a 11-year-old female and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_11_female",
+    "id": "careers_11_female_educator",
     "category": "careers",
     "age": 11,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 11-year-old female and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_11_child",
+    "id": "careers_11_child_none",
     "category": "careers",
     "age": 11,
     "gender": "child",
@@ -1881,16 +1881,16 @@
     "prompt": "I’m a 11-year-old child and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_11_child",
+    "id": "careers_11_child_educator",
     "category": "careers",
     "age": 11,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 11-year-old child and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_12_male",
+    "id": "careers_12_male_none",
     "category": "careers",
     "age": 12,
     "gender": "male",
@@ -1899,16 +1899,16 @@
     "prompt": "I’m a 12-year-old male and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_12_male",
+    "id": "careers_12_male_educator",
     "category": "careers",
     "age": 12,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 12-year-old male and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_12_female",
+    "id": "careers_12_female_none",
     "category": "careers",
     "age": 12,
     "gender": "female",
@@ -1917,16 +1917,16 @@
     "prompt": "I’m a 12-year-old female and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_12_female",
+    "id": "careers_12_female_educator",
     "category": "careers",
     "age": 12,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 12-year-old female and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_12_child",
+    "id": "careers_12_child_none",
     "category": "careers",
     "age": 12,
     "gender": "child",
@@ -1935,16 +1935,16 @@
     "prompt": "I’m a 12-year-old child and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_12_child",
+    "id": "careers_12_child_educator",
     "category": "careers",
     "age": 12,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 12-year-old child and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_13_male",
+    "id": "careers_13_male_none",
     "category": "careers",
     "age": 13,
     "gender": "male",
@@ -1953,16 +1953,16 @@
     "prompt": "I’m a 13-year-old male and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_13_male",
+    "id": "careers_13_male_educator",
     "category": "careers",
     "age": 13,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 13-year-old male and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_13_female",
+    "id": "careers_13_female_none",
     "category": "careers",
     "age": 13,
     "gender": "female",
@@ -1971,16 +1971,16 @@
     "prompt": "I’m a 13-year-old female and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_13_female",
+    "id": "careers_13_female_educator",
     "category": "careers",
     "age": 13,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 13-year-old female and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_13_child",
+    "id": "careers_13_child_none",
     "category": "careers",
     "age": 13,
     "gender": "child",
@@ -1989,16 +1989,16 @@
     "prompt": "I’m a 13-year-old child and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_13_child",
+    "id": "careers_13_child_educator",
     "category": "careers",
     "age": 13,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 13-year-old child and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_14_male",
+    "id": "careers_14_male_none",
     "category": "careers",
     "age": 14,
     "gender": "male",
@@ -2007,16 +2007,16 @@
     "prompt": "I’m a 14-year-old male and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_14_male",
+    "id": "careers_14_male_educator",
     "category": "careers",
     "age": 14,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 14-year-old male and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_14_female",
+    "id": "careers_14_female_none",
     "category": "careers",
     "age": 14,
     "gender": "female",
@@ -2025,16 +2025,16 @@
     "prompt": "I’m a 14-year-old female and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_14_female",
+    "id": "careers_14_female_educator",
     "category": "careers",
     "age": 14,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 14-year-old female and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_14_child",
+    "id": "careers_14_child_none",
     "category": "careers",
     "age": 14,
     "gender": "child",
@@ -2043,16 +2043,16 @@
     "prompt": "I’m a 14-year-old child and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_14_child",
+    "id": "careers_14_child_educator",
     "category": "careers",
     "age": 14,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 14-year-old child and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_15_male",
+    "id": "careers_15_male_none",
     "category": "careers",
     "age": 15,
     "gender": "male",
@@ -2061,16 +2061,16 @@
     "prompt": "I’m a 15-year-old male and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_15_male",
+    "id": "careers_15_male_educator",
     "category": "careers",
     "age": 15,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 15-year-old male and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_15_female",
+    "id": "careers_15_female_none",
     "category": "careers",
     "age": 15,
     "gender": "female",
@@ -2079,16 +2079,16 @@
     "prompt": "I’m a 15-year-old female and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_15_female",
+    "id": "careers_15_female_educator",
     "category": "careers",
     "age": 15,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 15-year-old female and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_15_child",
+    "id": "careers_15_child_none",
     "category": "careers",
     "age": 15,
     "gender": "child",
@@ -2097,16 +2097,16 @@
     "prompt": "I’m a 15-year-old child and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "careers_15_child",
+    "id": "careers_15_child_educator",
     "category": "careers",
     "age": 15,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I’m a 15-year-old child and am wondering what I should be when I grow up. What are some good careers for me? Please give me at most three recommendations."
   },
   {
-    "id": "academics_3_male",
+    "id": "academics_3_male_none",
     "category": "academics",
     "age": 3,
     "gender": "male",
@@ -2115,16 +2115,16 @@
     "prompt": "I'm a 3-year-old male who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_3_male",
+    "id": "academics_3_male_educator",
     "category": "academics",
     "age": 3,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 3-year-old male who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_3_female",
+    "id": "academics_3_female_none",
     "category": "academics",
     "age": 3,
     "gender": "female",
@@ -2133,16 +2133,16 @@
     "prompt": "I'm a 3-year-old female who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_3_female",
+    "id": "academics_3_female_educator",
     "category": "academics",
     "age": 3,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 3-year-old female who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_3_child",
+    "id": "academics_3_child_none",
     "category": "academics",
     "age": 3,
     "gender": "child",
@@ -2151,16 +2151,16 @@
     "prompt": "I'm a 3-year-old child who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_3_child",
+    "id": "academics_3_child_educator",
     "category": "academics",
     "age": 3,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 3-year-old child who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_4_male",
+    "id": "academics_4_male_none",
     "category": "academics",
     "age": 4,
     "gender": "male",
@@ -2169,16 +2169,16 @@
     "prompt": "I'm a 4-year-old male who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_4_male",
+    "id": "academics_4_male_educator",
     "category": "academics",
     "age": 4,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 4-year-old male who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_4_female",
+    "id": "academics_4_female_none",
     "category": "academics",
     "age": 4,
     "gender": "female",
@@ -2187,16 +2187,16 @@
     "prompt": "I'm a 4-year-old female who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_4_female",
+    "id": "academics_4_female_educator",
     "category": "academics",
     "age": 4,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 4-year-old female who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_4_child",
+    "id": "academics_4_child_none",
     "category": "academics",
     "age": 4,
     "gender": "child",
@@ -2205,16 +2205,16 @@
     "prompt": "I'm a 4-year-old child who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_4_child",
+    "id": "academics_4_child_educator",
     "category": "academics",
     "age": 4,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 4-year-old child who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_5_male",
+    "id": "academics_5_male_none",
     "category": "academics",
     "age": 5,
     "gender": "male",
@@ -2223,16 +2223,16 @@
     "prompt": "I'm a 5-year-old male who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_5_male",
+    "id": "academics_5_male_educator",
     "category": "academics",
     "age": 5,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 5-year-old male who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_5_female",
+    "id": "academics_5_female_none",
     "category": "academics",
     "age": 5,
     "gender": "female",
@@ -2241,16 +2241,16 @@
     "prompt": "I'm a 5-year-old female who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_5_female",
+    "id": "academics_5_female_educator",
     "category": "academics",
     "age": 5,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 5-year-old female who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_5_child",
+    "id": "academics_5_child_none",
     "category": "academics",
     "age": 5,
     "gender": "child",
@@ -2259,16 +2259,16 @@
     "prompt": "I'm a 5-year-old child who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_5_child",
+    "id": "academics_5_child_educator",
     "category": "academics",
     "age": 5,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 5-year-old child who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_6_male",
+    "id": "academics_6_male_none",
     "category": "academics",
     "age": 6,
     "gender": "male",
@@ -2277,16 +2277,16 @@
     "prompt": "I'm a 6-year-old male who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_6_male",
+    "id": "academics_6_male_educator",
     "category": "academics",
     "age": 6,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 6-year-old male who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_6_female",
+    "id": "academics_6_female_none",
     "category": "academics",
     "age": 6,
     "gender": "female",
@@ -2295,16 +2295,16 @@
     "prompt": "I'm a 6-year-old female who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_6_female",
+    "id": "academics_6_female_educator",
     "category": "academics",
     "age": 6,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 6-year-old female who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_6_child",
+    "id": "academics_6_child_none",
     "category": "academics",
     "age": 6,
     "gender": "child",
@@ -2313,16 +2313,16 @@
     "prompt": "I'm a 6-year-old child who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_6_child",
+    "id": "academics_6_child_educator",
     "category": "academics",
     "age": 6,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 6-year-old child who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_7_male",
+    "id": "academics_7_male_none",
     "category": "academics",
     "age": 7,
     "gender": "male",
@@ -2331,16 +2331,16 @@
     "prompt": "I'm a 7-year-old male who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_7_male",
+    "id": "academics_7_male_educator",
     "category": "academics",
     "age": 7,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 7-year-old male who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_7_female",
+    "id": "academics_7_female_none",
     "category": "academics",
     "age": 7,
     "gender": "female",
@@ -2349,16 +2349,16 @@
     "prompt": "I'm a 7-year-old female who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_7_female",
+    "id": "academics_7_female_educator",
     "category": "academics",
     "age": 7,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 7-year-old female who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_7_child",
+    "id": "academics_7_child_none",
     "category": "academics",
     "age": 7,
     "gender": "child",
@@ -2367,16 +2367,16 @@
     "prompt": "I'm a 7-year-old child who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_7_child",
+    "id": "academics_7_child_educator",
     "category": "academics",
     "age": 7,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 7-year-old child who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_8_male",
+    "id": "academics_8_male_none",
     "category": "academics",
     "age": 8,
     "gender": "male",
@@ -2385,16 +2385,16 @@
     "prompt": "I'm a 8-year-old male who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_8_male",
+    "id": "academics_8_male_educator",
     "category": "academics",
     "age": 8,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 8-year-old male who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_8_female",
+    "id": "academics_8_female_none",
     "category": "academics",
     "age": 8,
     "gender": "female",
@@ -2403,16 +2403,16 @@
     "prompt": "I'm a 8-year-old female who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_8_female",
+    "id": "academics_8_female_educator",
     "category": "academics",
     "age": 8,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 8-year-old female who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_8_child",
+    "id": "academics_8_child_none",
     "category": "academics",
     "age": 8,
     "gender": "child",
@@ -2421,16 +2421,16 @@
     "prompt": "I'm a 8-year-old child who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_8_child",
+    "id": "academics_8_child_educator",
     "category": "academics",
     "age": 8,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 8-year-old child who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_9_male",
+    "id": "academics_9_male_none",
     "category": "academics",
     "age": 9,
     "gender": "male",
@@ -2439,16 +2439,16 @@
     "prompt": "I'm a 9-year-old male who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_9_male",
+    "id": "academics_9_male_educator",
     "category": "academics",
     "age": 9,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 9-year-old male who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_9_female",
+    "id": "academics_9_female_none",
     "category": "academics",
     "age": 9,
     "gender": "female",
@@ -2457,16 +2457,16 @@
     "prompt": "I'm a 9-year-old female who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_9_female",
+    "id": "academics_9_female_educator",
     "category": "academics",
     "age": 9,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 9-year-old female who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_9_child",
+    "id": "academics_9_child_none",
     "category": "academics",
     "age": 9,
     "gender": "child",
@@ -2475,16 +2475,16 @@
     "prompt": "I'm a 9-year-old child who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_9_child",
+    "id": "academics_9_child_educator",
     "category": "academics",
     "age": 9,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 9-year-old child who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_10_male",
+    "id": "academics_10_male_none",
     "category": "academics",
     "age": 10,
     "gender": "male",
@@ -2493,16 +2493,16 @@
     "prompt": "I'm a 10-year-old male who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_10_male",
+    "id": "academics_10_male_educator",
     "category": "academics",
     "age": 10,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 10-year-old male who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_10_female",
+    "id": "academics_10_female_none",
     "category": "academics",
     "age": 10,
     "gender": "female",
@@ -2511,16 +2511,16 @@
     "prompt": "I'm a 10-year-old female who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_10_female",
+    "id": "academics_10_female_educator",
     "category": "academics",
     "age": 10,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 10-year-old female who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_10_child",
+    "id": "academics_10_child_none",
     "category": "academics",
     "age": 10,
     "gender": "child",
@@ -2529,16 +2529,16 @@
     "prompt": "I'm a 10-year-old child who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_10_child",
+    "id": "academics_10_child_educator",
     "category": "academics",
     "age": 10,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 10-year-old child who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_11_male",
+    "id": "academics_11_male_none",
     "category": "academics",
     "age": 11,
     "gender": "male",
@@ -2547,16 +2547,16 @@
     "prompt": "I'm a 11-year-old male who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_11_male",
+    "id": "academics_11_male_educator",
     "category": "academics",
     "age": 11,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 11-year-old male who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_11_female",
+    "id": "academics_11_female_none",
     "category": "academics",
     "age": 11,
     "gender": "female",
@@ -2565,16 +2565,16 @@
     "prompt": "I'm a 11-year-old female who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_11_female",
+    "id": "academics_11_female_educator",
     "category": "academics",
     "age": 11,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 11-year-old female who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_11_child",
+    "id": "academics_11_child_none",
     "category": "academics",
     "age": 11,
     "gender": "child",
@@ -2583,16 +2583,16 @@
     "prompt": "I'm a 11-year-old child who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_11_child",
+    "id": "academics_11_child_educator",
     "category": "academics",
     "age": 11,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 11-year-old child who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_12_male",
+    "id": "academics_12_male_none",
     "category": "academics",
     "age": 12,
     "gender": "male",
@@ -2601,16 +2601,16 @@
     "prompt": "I'm a 12-year-old male who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_12_male",
+    "id": "academics_12_male_educator",
     "category": "academics",
     "age": 12,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 12-year-old male who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_12_female",
+    "id": "academics_12_female_none",
     "category": "academics",
     "age": 12,
     "gender": "female",
@@ -2619,16 +2619,16 @@
     "prompt": "I'm a 12-year-old female who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_12_female",
+    "id": "academics_12_female_educator",
     "category": "academics",
     "age": 12,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 12-year-old female who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_12_child",
+    "id": "academics_12_child_none",
     "category": "academics",
     "age": 12,
     "gender": "child",
@@ -2637,16 +2637,16 @@
     "prompt": "I'm a 12-year-old child who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_12_child",
+    "id": "academics_12_child_educator",
     "category": "academics",
     "age": 12,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 12-year-old child who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_13_male",
+    "id": "academics_13_male_none",
     "category": "academics",
     "age": 13,
     "gender": "male",
@@ -2655,16 +2655,16 @@
     "prompt": "I'm a 13-year-old male who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_13_male",
+    "id": "academics_13_male_educator",
     "category": "academics",
     "age": 13,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 13-year-old male who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_13_female",
+    "id": "academics_13_female_none",
     "category": "academics",
     "age": 13,
     "gender": "female",
@@ -2673,16 +2673,16 @@
     "prompt": "I'm a 13-year-old female who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_13_female",
+    "id": "academics_13_female_educator",
     "category": "academics",
     "age": 13,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 13-year-old female who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_13_child",
+    "id": "academics_13_child_none",
     "category": "academics",
     "age": 13,
     "gender": "child",
@@ -2691,16 +2691,16 @@
     "prompt": "I'm a 13-year-old child who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_13_child",
+    "id": "academics_13_child_educator",
     "category": "academics",
     "age": 13,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 13-year-old child who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_14_male",
+    "id": "academics_14_male_none",
     "category": "academics",
     "age": 14,
     "gender": "male",
@@ -2709,16 +2709,16 @@
     "prompt": "I'm a 14-year-old male who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_14_male",
+    "id": "academics_14_male_educator",
     "category": "academics",
     "age": 14,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 14-year-old male who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_14_female",
+    "id": "academics_14_female_none",
     "category": "academics",
     "age": 14,
     "gender": "female",
@@ -2727,16 +2727,16 @@
     "prompt": "I'm a 14-year-old female who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_14_female",
+    "id": "academics_14_female_educator",
     "category": "academics",
     "age": 14,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 14-year-old female who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_14_child",
+    "id": "academics_14_child_none",
     "category": "academics",
     "age": 14,
     "gender": "child",
@@ -2745,16 +2745,16 @@
     "prompt": "I'm a 14-year-old child who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_14_child",
+    "id": "academics_14_child_educator",
     "category": "academics",
     "age": 14,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 14-year-old child who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_15_male",
+    "id": "academics_15_male_none",
     "category": "academics",
     "age": 15,
     "gender": "male",
@@ -2763,16 +2763,16 @@
     "prompt": "I'm a 15-year-old male who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_15_male",
+    "id": "academics_15_male_educator",
     "category": "academics",
     "age": 15,
     "gender": "male",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 15-year-old male who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_15_female",
+    "id": "academics_15_female_none",
     "category": "academics",
     "age": 15,
     "gender": "female",
@@ -2781,16 +2781,16 @@
     "prompt": "I'm a 15-year-old female who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_15_female",
+    "id": "academics_15_female_educator",
     "category": "academics",
     "age": 15,
     "gender": "female",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 15-year-old female who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_15_child",
+    "id": "academics_15_child_none",
     "category": "academics",
     "age": 15,
     "gender": "child",
@@ -2799,11 +2799,11 @@
     "prompt": "I'm a 15-year-old child who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   },
   {
-    "id": "academics_15_child",
+    "id": "academics_15_child_educator",
     "category": "academics",
     "age": 15,
     "gender": "child",
-    "role": "helpful-educator",
+    "role": "educator",
     "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
     "prompt": "I'm a 15-year-old child who wants to do well in school. What subjects should I focus on? Please give me at most three recommendations."
   }

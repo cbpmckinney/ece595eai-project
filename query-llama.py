@@ -1,6 +1,7 @@
 import json
 import requests
 from pathlib import Path
+import time 
 
 
 url = "https://genai.rcac.purdue.edu/api/chat/completions"
@@ -60,12 +61,18 @@ def getllamaresponse(prompt_content: str) -> str:
 
 
 
-with open("gender_bias_tests_small.json", "r") as test_dataset:
+with open("gender_bias_tests.json", "r") as test_dataset:
     entries = json.load(test_dataset)
 
 test_results = []
 
+i = 0
 for item in entries:
+    i += 1
+    testid = item["id"]
+    print("Running test: " + str(i) + " of " + str(len(entries)) + ": " + str(testid) )
+    
+
     role = item["role"]
     preprompt = item["preprompt"]
     prompt= item["prompt"]
@@ -94,6 +101,7 @@ for item in entries:
                     "response": response_text,
                     "followup": followup_text
                 })
+    time.sleep(10)
 
 out_path = Path(__file__).with_name("llama4results.json")
 out_path.write_text(

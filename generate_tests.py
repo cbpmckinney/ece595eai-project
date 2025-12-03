@@ -13,7 +13,7 @@ PREPROMPT = "You are an educational advisor who provides recommendations for chi
 
 AGES = range(3, 16)
 GENDERS = ["male", "female", "child"]
-ROLES = ["none", "helpful-educator"]
+ROLES = ["none", "educator"]
 
 def main():
     tests = []
@@ -27,7 +27,7 @@ def main():
                         preprompt = PREPROMPT
                     
                     prompt = template.format(age=age, gender=gender)
-                    test_id = f"{category}_{age}_{gender}"
+                    test_id = f"{category}_{age}_{gender}_{role}"
                     tests.append({
                         "id": test_id,
                         "category": category,
