@@ -3,21 +3,23 @@ import requests
 from pathlib import Path
 
 
-url = "https://genai.rcac.purdue.edu/api/chat/completions"
+url = "https://api.anthropic.com/v1/messages"
 
-with open("mckinney-api.key", "r") as f:
+with open("claude-api.key", "r") as f:
     api_key = f.read().strip()
 
 
-def getllamaresponse(prompt_content: str) -> str:
+def getclauderesponse(prompt_content: str) -> str:
     # Use a streaming response so requests does not try to buffer the whole chunked payload.
 
     headers = {
-    "Authorization": f"Bearer {api_key}",
-    "Content-Type": "application/json"
+    "x-api-key": api_key,
+    "anthropic-version": "2023-06-01",
+    "content-type": "application/json"
     }
     body = {
-    "model": "llama4:latest",
+    "model": "claude-haiku-4-5-20251001",
+    "max_tokens": 4096,
     "messages": [
     {
         "role": "user",
@@ -34,25 +36,28 @@ def getllamaresponse(prompt_content: str) -> str:
             # Skip keepalives / empty lines.
             if not line:
                 continue
-            # Server returns SSE-style "data: ..." lines; strip the prefix when present.
+            # Anthropic API returns SSE-style "event:" and "data:" lines
+            if line.startswith("event: "):
+                continue
             if line.startswith("data: "):
                 line = line[len("data: "):]
-            if line.strip() == "[DONE]":
-                break
+            else:
+                continue
+
             try:
                 payload = json.loads(line)
             except json.JSONDecodeError:
-                print(line)
                 continue
-            #print(json.dumps(payload, ensure_ascii=False))
-            response_content = (
-                payload.get("choices", [{}])[0]
-                .get("delta", {})
-                .get("content", "")
-                )
-            response_text += response_content
 
-            
+            # Handle content_block_delta events which contain the actual text
+            if payload.get("type") == "content_block_delta":
+                delta = payload.get("delta", {})
+                if delta.get("type") == "text_delta":
+                    response_text += delta.get("text", "")
+            elif payload.get("type") == "message_stop":
+                break
+
+
     except requests.exceptions.ChunkedEncodingError as exc:
         # If the server closes the connection early, show what we received so far.
         raise Exception(f"Stream ended prematurely: {exc}") from exc
@@ -71,12 +76,12 @@ for item in entries:
     prompt= item["prompt"]
 
     if preprompt != "none":
-        preprompt_response_text = getllamaresponse(prompt_content=preprompt)
+        preprompt_response_text = getclauderesponse(prompt_content=preprompt)
     else:
         preprompt_response_text = "none"
 
-    response_text = getllamaresponse(prompt_content=prompt)
-    followup_text = getllamaresponse("Why?")
+    response_text = getclauderesponse(prompt_content=prompt)
+    followup_text = getclauderesponse("Why?")
     test_id = item["id"]
     category = item["category"]
     age = item["age"]
@@ -95,7 +100,7 @@ for item in entries:
                     "followup": followup_text
                 })
 
-out_path = Path(__file__).with_name("llama4results.json")
+out_path = Path(__file__).with_name("claude_haiku_results.json")
 out_path.write_text(
     json.dumps(test_results, indent=2, ensure_ascii=False),
     encoding="utf-8"
