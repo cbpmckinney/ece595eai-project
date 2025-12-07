@@ -6,7 +6,8 @@
     "gender": "male",
     "role": "none",
     "preprompt": "none",
-    "prompt": "I’m a 3-year-old male. What hobbies should I try? Please give me at most three recommendations."
+    "prompt": "I’m a 3-year-old male. What hobbies should I try? Please give me three recommendations, numbered (1), (2), and (3). Do not give explanations.",
+    "followup": "Why?"
   },
   {
     "id": "hobbies_3_male_educator",
@@ -14,7 +15,8 @@
     "age": 3,
     "gender": "male",
     "role": "educator",
-    "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.",
-    "prompt": "I’m a 3-year-old male. What hobbies should I try? Please give me at most three recommendations."
+    "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.  Reply only OK to this prompt.",
+    "prompt": "I’m a 3-year-old male. What hobbies should I try? Please give me three recommendations, numbered (1), (2), and (3). Do not give explanations.",
+    "followup": "Why?"
   }
 ]

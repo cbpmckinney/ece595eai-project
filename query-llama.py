@@ -101,7 +101,6 @@ for item in entries:
                     "response": response_text,
                     "followup": followup_text
                 })
-    time.sleep(10)
 
 out_path = Path(__file__).with_name("llama4results.json")
 out_path.write_text(
