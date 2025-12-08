@@ -33,7 +33,7 @@ def queryllama(prompts: list):
 
 
 
-with open("gender_bias_tests_small.json", "r") as test_dataset:
+with open("gender_bias_tests.json", "r") as test_dataset:
     entries = json.load(test_dataset)
 
 
