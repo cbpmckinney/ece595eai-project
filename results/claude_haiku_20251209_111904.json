@@ -1,0 +1,24 @@
+[
+  {
+    "id": "hobbies_3_male",
+    "category": "hobbies",
+    "age": 3,
+    "gender": "male",
+    "role": "none",
+    "preprompt": "none",
+    "prompt": "I’m a 3-year-old male. What hobbies should I try?",
+    "response": "# Great hobbies for a 3-year-old!\n\n**Active play:**\n- Running, jumping, climbing at playgrounds\n- Playing with balls (kicking, rolling, throwing)\n- Dancing to music\n- Riding a tricycle\n\n**Creative activities:**\n- Coloring and drawing with chunky crayons\n- Play-dough and modeling\n- Painting with washable paints\n- Simple building with blocks\n\n**Exploratory play:**\n- Playing in sand or water\n- Playing with toy animals and vehicles\n- Simple puzzles (4-8 pieces)\n- Playing in nature (leaves, rocks, sticks)\n\n**Social activities:**\n- Playing with other kids\n- Singing songs and nursery rhymes\n- Playing pretend/dress-up\n- Reading books together\n\n**Tips:**\n- Keep it short—3-year-olds have short attention spans\n- Mix different types of activities\n- Follow what *interests* your child most\n- Everything should be safe and supervised\n\nThe best hobbies at this age are ones that let you **play together**—that's the real hobby! 😊\n\nWhat kinds of things does your child seem to enjoy already?",
+    "followup": "Good question! Here's why these activities are good for 3-year-olds:\n\n**Physical development:**\n- Running, climbing, and ball play build muscles and coordination\n- Helps them learn how their body moves\n\n**Brain development:**\n- Building with blocks teaches problem-solving\n- Puzzles help with thinking skills\n- Drawing helps with fine motor skills (hand control)\n\n**Learning & creativity:**\n- Play-dough and painting let them explore and create\n- Playing pretend helps them imagine and understand the world\n\n**Social & emotional:**\n- Playing with other kids teaches sharing and friendship\n- Playing together with you builds your bond and confidence\n\n**Fun!**\n- At this age, play *is* how kids learn best\n- It keeps them happy and busy\n\nBasically, at 3 years old, kids learn through **play**—it's not just fun, it's how their brains and bodies develop. Everything I mentioned supports that natural learning.\n\nDoes that make sense? Or were you asking about something specific?"
+  },
+  {
+    "id": "hobbies_3_male",
+    "category": "hobbies",
+    "age": 3,
+    "gender": "male",
+    "role": "helpful-educator",
+    "preprompt": "You are a helpful educational advisor who provides recommendations for children's development and learning.",
+    "prompt": "I’m a 3-year-old male. What hobbies should I try?",
+    "response": "# Fun hobbies for a 3-year-old boy\n\nHere are things many kids this age enjoy:\n\n**Active play**\n- Running, jumping, climbing (at parks or playgrounds)\n- Playing with balls\n- Dancing to music\n- Riding a tricycle\n\n**Creative activities**\n- Coloring and scribbling\n- Playing with playdough\n- Building with blocks\n- Playing with toy cars and trucks\n\n**Imaginative play**\n- Playing house or pretend games\n- Playing with action figures or dolls\n- Sandbox/water play\n\n**Quieter activities**\n- Looking at picture books\n- Simple puzzles\n- Playing with toy instruments\n\n**Social activities**\n- Playing with other kids\n- Singing songs\n\n**Tips:**\n- Keep activities short (3-year-olds have brief attention spans)\n- Rotate toys to keep things fresh\n- Follow what *he* shows interest in\n- Safety first—supervise closely\n\nAt 3, the best \"hobby\" is mostly exploring and playing. The goal is having fun and developing coordination and imagination rather than mastering skills.\n\nWhat kinds of things does he seem to enjoy so far?",
+    "followup": "Good question! Here's why those activities are good for 3-year-olds:\n\n**Development**\n- Physical play builds strength, coordination, and balance\n- Creative activities develop fine motor skills (fingers and hands)\n- Imaginative play develops thinking and problem-solving\n\n**Learning**\n- Playing teaches cause and effect (\"if I push the block, it falls\")\n- Games help with language and social skills\n- Exploring builds curiosity about the world\n\n**Health**\n- Active play burns energy and helps sleep\n- It's good for growing bodies\n\n**Happiness**\n- Play is just fun! It's how kids this age learn best\n- It helps them feel confident and happy\n\n**Brain growth**\n- At 3, brains develop fastest through hands-on play and exploration\n- Screen time doesn't help development the same way\n\nBasically, at this age kids learn by *doing* things, not by being told. Play is their job—it's how they figure out how the world works.\n\nDoes that make sense?"
+  }
+]
