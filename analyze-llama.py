@@ -6,7 +6,7 @@ import pickle
 import numpy as np
 
 
-INPUT_JSON = "llama4results.json"
+INPUT_JSON = "llama4results-sanitized.json"
 
 
 # 1. Load JSON
@@ -74,10 +74,17 @@ for c in categories:
             embs3 = df1["followup-embedding"].iloc[:len(df1)]
             embs4 = df2["followup-embedding"].iloc[:len(df2)]
             distances2 = [cosine_distance(e1, e2) for e1, e2 in zip(embs3, embs4)]
+            
+            response_diffs = [e1 - e2 for e1, e2 in zip(embs1, embs2)]
+            followup_diffs = [e1 - e2 for e1, e2 in zip(embs3, embs4)]
+            
+            
             newframes[newkey] = pd.DataFrame({
                 "age": ages,
                 "response-cosine-distance": distances1,
-                "followup-cosine-distance": distances2
+                "followup-cosine-distance": distances2,
+                "response-diffvector": response_diffs,
+                "followup-diffvector": followup_diffs
             })
 
             
