@@ -1,91 +1,82 @@
-import json
-import requests
 from pathlib import Path
+from openai import OpenAI
+import json
+from datetime import datetime
 
 
-url = "https://api.anthropic.com/v1/messages"
-
-with open("claude-api.key", "r") as f:
-    api_key = f.read().strip()
-
-
-def getclauderesponse(prompt_content: str) -> str:
-    # Use a streaming response so requests does not try to buffer the whole chunked payload.
-
-    headers = {
-    "x-api-key": api_key,
-    "anthropic-version": "2023-06-01",
-    "content-type": "application/json"
-    }
-    body = {
-    "model": "claude-haiku-4-5-20251001",
-    "max_tokens": 4096,
-    "messages": [
-    {
-        "role": "user",
-        "content": prompt_content,
-    }
-    ],
-    "stream": True
-    }
-    response = requests.post(url, headers=headers, json=body, stream=True, timeout=120)
-    response_text = ""
-    try:
-        response.raise_for_status()
-        for line in response.iter_lines(decode_unicode=True):
-            # Skip keepalives / empty lines.
-            if not line:
-                continue
-            # Anthropic API returns SSE-style "event:" and "data:" lines
-            if line.startswith("event: "):
-                continue
-            if line.startswith("data: "):
-                line = line[len("data: "):]
-            else:
-                continue
-
-            try:
-                payload = json.loads(line)
-            except json.JSONDecodeError:
-                continue
-
-            # Handle content_block_delta events which contain the actual text
-            if payload.get("type") == "content_block_delta":
-                delta = payload.get("delta", {})
-                if delta.get("type") == "text_delta":
-                    response_text += delta.get("text", "")
-            elif payload.get("type") == "message_stop":
-                break
-
-
-    except requests.exceptions.ChunkedEncodingError as exc:
-        # If the server closes the connection early, show what we received so far.
-        raise Exception(f"Stream ended prematurely: {exc}") from exc
-    return response_text
+API_KEY = Path("claude-api.key").read_text().strip()
+client = OpenAI(base_url="https://api.anthropic.com/v1/", api_key=API_KEY)
 
 
 
-with open("gender_bias_tests_small.json", "r") as test_dataset:
+def content_to_text(content):
+    """Flatten text whether server returns a string or list of parts."""
+    if isinstance(content, list):
+        return "".join(part.get("text", "") for part in content)
+    return content
+
+def queryclaude(prompts: list):
+    messages = []
+    replies = []
+    for i, prompt in enumerate(prompts, start=1):
+        messages.append({"role": "user", "content": prompt})
+        resp = client.chat.completions.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=1024,
+            messages=messages,
+        )
+        reply = resp.choices[0].message
+        reply_text = content_to_text(reply.content)
+        replies.append(reply_text)
+        # print(f"Response {i}: {reply_text}")
+        # Save assistant reply to maintain context for the next turn.
+        messages.append({"role": reply.role, "content": reply.content})
+    return replies
+
+
+
+with open("gender_bias_tests.json", "r") as test_dataset:
     entries = json.load(test_dataset)
 
-test_results = []
 
+start_time = datetime.now()
+print(f"Starting testing at: {start_time}")
+
+test_results = []
+i = 0
 for item in entries:
+    prompts = []
+    i += 1
+    testid = item["id"]
+    print(f"({datetime.now()}) Running test {i} of {len(entries)}: {testid}")
+
+
     role = item["role"]
     preprompt = item["preprompt"]
     prompt= item["prompt"]
-
-    if preprompt != "none":
-        preprompt_response_text = getclauderesponse(prompt_content=preprompt)
-    else:
-        preprompt_response_text = "none"
-
-    response_text = getclauderesponse(prompt_content=prompt)
-    followup_text = getclauderesponse("Why?")
+    followup = item["followup"]
     test_id = item["id"]
     category = item["category"]
     age = item["age"]
     gender = item["gender"]
+
+    # Set up prompts to be passed to AI
+    if preprompt != "none":
+        prompts.append(preprompt)
+    prompts.append(prompt)
+    prompts.append(followup)
+
+    # Pass prompts to AI
+    responses = queryclaude(prompts=prompts)
+    # Responses is a list of strings, one for each reply
+    if preprompt == "none":
+        preprompt_response = "none"
+        prompt_response = responses[0]
+        followup_response = responses[1]
+    else:
+        preprompt_response = responses[0]
+        prompt_response = responses[1]
+        followup_response = responses[2]
 
 
     test_results.append({
@@ -95,16 +86,20 @@ for item in entries:
                     "gender": gender,
                     "role": role,
                     "preprompt": preprompt,
+                    "preprompt-response": preprompt_response,
                     "prompt": prompt,
-                    "response": response_text,
-                    "followup": followup_text
+                    "prompt-response": prompt_response,
+                    "followup": followup,
+                    "followup-response": followup_response
                 })
 
-out_path = Path(__file__).with_name("claude_haiku_results.json")
+out_path = Path(__file__).with_name("claude3results.json")
 out_path.write_text(
     json.dumps(test_results, indent=2, ensure_ascii=False),
     encoding="utf-8"
 )
 
 print(f"Wrote {len(test_results)} test cases to:\n  {out_path.resolve()}")
-
+end_time = datetime.now()
+print(f"Testing ended at: {end_time}")
+print(f"Testing took: {end_time - start_time}")

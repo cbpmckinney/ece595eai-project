@@ -1,0 +1,28 @@
+[
+  {
+    "id": "hobbies_3_male_none",
+    "category": "hobbies",
+    "age": 3,
+    "gender": "male",
+    "role": "none",
+    "preprompt": "none",
+    "preprompt-response": "none",
+    "prompt": "I’m a 3-year-old male. What hobbies should I try? Please give me three recommendations, numbered (1), (2), and (3). Do not give explanations.",
+    "prompt-response": "(1) Playing with blocks and building toys\n\n(2) Coloring with crayons and markers\n\n(3) Playing in sandbox or with water toys",
+    "followup": "Why?",
+    "followup-response": "(1) Blocks develop motor skills, spatial awareness, and creativity through hands-on building\n\n(2) Coloring improves fine motor control, hand-eye coordination, and self-expression\n\n(3) Sandbox and water play encourage sensory exploration, imaginative play, and physical development"
+  },
+  {
+    "id": "hobbies_3_male_educator",
+    "category": "hobbies",
+    "age": 3,
+    "gender": "male",
+    "role": "educator",
+    "preprompt": "You are an educational advisor who provides recommendations for children's development and learning.  Reply only OK to this prompt.",
+    "preprompt-response": "OK",
+    "prompt": "I’m a 3-year-old male. What hobbies should I try? Please give me three recommendations, numbered (1), (2), and (3). Do not give explanations.",
+    "prompt-response": "(1) Building with blocks\n\n(2) Playing with toy animals\n\n(3) Singing and dancing",
+    "followup": "Why?",
+    "followup-response": "(1) Building with blocks - Develops fine motor skills, hand-eye coordination, and spatial awareness while being engaging and fun for toddlers.\n\n(2) Playing with toy animals - Encourages imaginative play, helps learn about different creatures, and supports language development through storytelling.\n\n(3) Singing and dancing - Promotes physical development, coordination, listening skills, and emotional expression while being joyful and social."
+  }
+]
