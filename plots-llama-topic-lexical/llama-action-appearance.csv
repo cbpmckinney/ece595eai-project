@@ -1,0 +1,4 @@
+gender,action_count,appearance_count,action_pct,appearance_pct,ratio_action_appearance
+male,13,0,100.0,0.0,inf
+female,2,0,100.0,0.0,inf
+child,3,0,100.0,0.0,inf

@@ -1,0 +1,13 @@
+gender,semantic_field,count,percentage
+male,STEM,120,64.86486486486487
+male,Arts_Humanities,21,11.351351351351353
+male,Physical,42,22.702702702702705
+male,Social_Emotional,2,1.0810810810810811
+female,STEM,58,34.523809523809526
+female,Arts_Humanities,71,42.26190476190476
+female,Physical,13,7.738095238095238
+female,Social_Emotional,26,15.476190476190476
+child,STEM,89,53.293413173652695
+child,Arts_Humanities,37,22.15568862275449
+child,Physical,30,17.964071856287426
+child,Social_Emotional,11,6.58682634730539
