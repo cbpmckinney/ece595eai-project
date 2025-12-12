@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1100" height="400"
+     viewBox="0 0 1100 400">
+
+  <style>
+    .box {
+      fill: #f8f8ff;
+      stroke: #333333;
+      stroke-width: 1.5;
+      rx: 8;
+      ry: 8;
+    }
+    .title {
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      fill: #000000;
+    }
+    .label {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+      fill: #000000;
+    }
+    .sub {
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+      fill: #333333;
+    }
+    .line {
+      stroke: #555555;
+      stroke-width: 1.5;
+    }
+  </style>
+
+  <!-- Top-level dataset box -->
+  <rect class="box" x="410" y="20" width="280" height="60" />
+  <text class="title" x="550" y="55" text-anchor="middle">
+    Dataset (624 combinations)
+  </text>
+
+  <!-- Connector from dataset box down to factor line -->
+  <line class="line" x1="550" y1="80" x2="550" y2="140" />
+
+  <!-- Horizontal line across factors -->
+  <line class="line" x1="150" y1="140" x2="950" y2="140" />
+
+  <!-- Vertical connectors down to each factor box -->
+  <line class="line" x1="150" y1="140" x2="150" y2="190" />
+  <line class="line" x1="350" y1="140" x2="350" y2="190" />
+  <line class="line" x1="550" y1="140" x2="550" y2="190" />
+  <line class="line" x1="750" y1="140" x2="750" y2="190" />
+  <line class="line" x1="950" y1="140" x2="950" y2="190" />
+
+  <!-- Factor boxes -->
+  <!-- LLM under test -->
+  <rect class="box" x="70" y="190" width="160" height="70" />
+  <text class="label" x="150" y="215" text-anchor="middle">
+    LLM under test
+  </text>
+  <text class="sub" x="150" y="235" text-anchor="middle">
+    2 models (Claude or Llama)
+  </text>
+
+  <!-- LLM Role -->
+  <rect class="box" x="270" y="190" width="160" height="70" />
+  <text class="label" x="350" y="215" text-anchor="middle">
+    LLM Role
+  </text>
+  <text class="sub" x="350" y="235" text-anchor="middle">
+    2 (null, educational advisor)
+  </text>
+
+  <!-- User gender -->
+  <rect class="box" x="470" y="190" width="160" height="70" />
+  <text class="label" x="550" y="215" text-anchor="middle">
+    User gender
+  </text>
+  <text class="sub" x="550" y="235" text-anchor="middle">
+    3 (male, female, child)
+  </text>
+
+  <!-- Age -->
+  <rect class="box" x="670" y="190" width="160" height="70" />
+  <text class="label" x="750" y="215" text-anchor="middle">
+    User Age
+  </text>
+  <text class="sub" x="750" y="235" text-anchor="middle">
+    13 (3–15 years)
+  </text>
+
+  <!-- Topic -->
+  <rect class="box" x="870" y="190" width="160" height="70" />
+  <text class="label" x="950" y="210" text-anchor="middle">
+    Topic
+  </text>
+  <text class="sub" x="950" y="230" text-anchor="middle">
+    4 (toys, hobbies,
+  </text>
+  <text class="sub" x="950" y="246" text-anchor="middle">
+    careers, academics)
+  </text>
+
+</svg>
