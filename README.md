@@ -11,9 +11,9 @@ The project systematically probes two LLMs using a fully factorial prompt design
 We evaluate whether LLMs exhibit gender-stereotyped behavior when asked to provide age-appropriate recommendations to children.
 
 ### Key experimental dimensions:
-- **LLMs under test:** 2 (Claude, Llama-4)
-- **Model role framing:** 2 (“helpful advisor”, “educator”)
-- **User gender labels:** 3 (“boy”, “girl”, “child”)
+- **LLMs under test:** 2 (Claude Haiku 4.5, Llama-4)
+- **Model role framing:** 2 (null, or “educational advisor”)
+- **User gender labels:** 3 (“male”, “female”, “child”)
 - **User ages:** 13 (ages 3–15)
 - **Recommendation domains:** 4 (toys, hobbies, careers, academic subjects)
 
